@@ -13,10 +13,9 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Hero Section */}
       <section className="relative py-20 md:py-32 overflow-hidden bg-gradient-to-b from-background to-secondary/20">
-        <div className="container px-4 md:px-8 mx-auto">
-          <div className="flex flex-col items-center text-center space-y-8 max-w-3xl mx-auto">
+        <div className="container px-4 md:px-0 mx-auto">
+          <div className="flex flex-col items-center text-center space-y-8  mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -27,7 +26,7 @@ export default function Home() {
               </h1>
               <p className="mt-6 text-xl text-muted-foreground">
                 Complete simple tasks and get paid instantly. Or post tasks and
-                get them done by thousands of workers.
+                get them done by thousands of workers..
               </p>
             </motion.div>
 
